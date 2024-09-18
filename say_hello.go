@@ -1,5 +1,5 @@
 package belajar_golang_module
 
-func SayHello() string {
-	return "Welcome to the world of Go!"
+func SayHello(name string) string {
+	return "Welcome to the world of Go!" + name
 }
